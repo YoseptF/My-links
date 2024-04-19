@@ -1,0 +1,35 @@
+.LinkList {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.LinkList a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.LinkList li:hover a {
+  color: #fff;
+}
+
+.LinkList li {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem 0;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+
+  transition: background-color 0.3s;
+}
+
+.LinkList li:hover {
+  background-color: #333;
+}

@@ -1,0 +1,12 @@
+.Header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+  
+  .Header h1 {
+    font-size: 1.5rem;
+    color: #ccc;
+}
